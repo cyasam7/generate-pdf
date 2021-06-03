@@ -1,0 +1,462 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesanalisiscredit.css" />
+  </head>
+  <style>
+    * { font-family: Arial, Helvetica, sans-serif; color: hsl(225, 6%, 13%);
+    margin: 0; padding: 0; box-sizing: border-box; } input { width: 100%; }
+    .section { width: 100%; } .item-section { margin-bottom: 25px; }
+    .item-section h3 { margin-bottom: 10px; } .header { margin: 40px 0; display:
+    flex; justify-content: space-around; align-items: center; } .row { display:
+    flex; justify-content: space-between; align-items: center; margin: 5px; }
+    .sub-row { width: 100%; display: flex; align-items: center; } .item-medio {
+    width: 100%; margin: 0 50px; } .input-field { padding: 2px 5px; flex-grow:
+    10; } .section { padding: 0 50px; } .inline { display: inline-block; }
+    .container-firma { width: 30%; border: 1px solid gray; } .container-firma p
+    { margin-top: 70px; text-align: center; padding: 5px 0; border-top: 1px
+    solid gray; }
+  </style>
+  <body>
+    <header class="header">
+      <h3>CARATULA CONTRATO DE COMPRAVENTA EN ABONOS</h3>
+      <div>
+        <div class="row">
+          <p>Cliente</p>
+          <input class="input-field" type="text" value="" />
+        </div>
+        <div class="row">
+          <p>Contrato</p>
+          <input class="input-field" type="text" value="" />
+        </div>
+        <div class="row">
+          <p>Fecha</p>
+          <input class="input-field" type="text" value={{propiedad}} />
+        </div>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="item-medio">
+        <p>(1) Datos del VENDEDOR</p>
+      </div>
+      <div class="item-medio">
+        <p>(2) Datos generales del COMPRADOR</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="sub-row item-medio">
+        <p class="input-text">Nombre</p>
+        <input class="input-field" type="text" />
+      </div>
+      <div class="sub-row item-medio">
+        <p class="item-text">Nombre</p>
+        <input class="input-field" type="text" />
+      </div>
+    </div>
+    <!-- Calle -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Calle</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Calle</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <!-- Numero -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Numero Exterior</p>
+          <input class="input-field" type="text" />
+          <p class="input-text">Interior</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Numero Exterior</p>
+          <input class="input-field" type="text" />
+          <p class="input-text">Interior</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <!-- Colonia -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Colonia</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Colonia</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <!-- Otro -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Otro</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Otro</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <!-- Ciudad -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Ciudad</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Ciudad</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <!-- Estado -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <p class="input-text">Estado</p>
+            <input class="input-field" type="text" />
+          </div>
+
+          <div class="sub-row">
+            <p class="input-text">Codigo Postal</p>
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <p class="input-text">Estado</p>
+            <input class="input-field" type="text" />
+          </div>
+
+          <div class="sub-row">
+            <p class="input-text">Codigo Postal</p>
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RFC -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <p class="input-text">RFC</p>
+            <input class="input-field" type="text" />
+          </div>
+
+          <div class="sub-row">
+            <p class="input-text">Telefono</p>
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <p class="input-text">CURP/RFC</p>
+            <input class="input-field" type="text" />
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contacto -->
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <p class="input-text">Contacto</p>
+            <input class="input-field" type="text" />
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <p class="input-text">Correo-e</p>
+            <input class="input-field" type="text" />
+          </div>
+
+          <div class="sub-row">
+            <p class="input-text">Tel. Celular</p>
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="row item-medio">
+        <p class="input-text">Identificación del COMPRADOR</p>
+        <p class="input-text">Numero</p>
+      </div>
+      <div class="row item-medio">
+        <p class="item-text">Referencias</p>
+        <p class="item-text">Nombre</p>
+        <p class="item-text">Telefono</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row item-medio">
+        <input class="input-field" type="text" />
+        <input class="input-field" type="text" />
+      </div>
+      <div class="row item-medio">
+        <input class="input-field" type="text" />
+        <input class="input-field" type="text" />
+        <input class="input-field" type="text" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <div class="sub-row">
+            <input class="input-field" type="text" />
+          </div>
+
+          <div class="sub-row">
+            <p class="input-text">Vence</p>
+            <input class="input-field" type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="item-medio"></div>
+    </div>
+
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Comprobante de Domicilio</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio"></div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Marca</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio"></div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Modelo</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">IMEI</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Otro</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">ICCID</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">
+            (4) Monto a Pagar: Enganche y Pagos Semanales
+          </p>
+        </div>
+      </div>
+      <div class="item-medio"></div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Precio (IVA Incluido)</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Plazo a Financiar (Semanas)</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Monto del Enganche (IVA incluido)</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Pagos Semanales (IVA incluido)</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">Monto a Financiar (IVA incluido)</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">ICCID</p>
+          <input class="input-field" type="text" />
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">(5) Forma de Pago</p>
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">
+            (6) Inhabilitación de Equipo por incumplimiento de Pago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">
+            El pago será realizado en efectivo a través de ventanillas de cobro
+            de cualquiera de las sucursales del VENDEDOR las cuales se
+            especifican en la sección de Medios de Pago, o bien mediante pago
+            referenciado a través de cualquiera de los medios de pago descritos
+            en la sección Medios de Pago de éste contrato
+          </p>
+        </div>
+      </div>
+      <div class="item-medio">
+        <div class="sub-row">
+          <p class="input-text">
+            El COMPRADOR acepta que en caso de incumplir con los pagos semanales
+            incluidos en la sección "Pagos Semanales a los que se Obliga el
+            COMPRADOR" en este contrato, el VENDEDOR se reserva el derecho de
+            inhabilitar el uso del Equipo Móvil objeto de este contrato de
+            Compra-Venta por un período indefinido, al día siguiente de la fecha
+            de incumplimiento, hasta en tanto el COMPRADOR cumpla con la
+            totalidad de Pagos vencidos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <p class="input-text">
+        (7) Formalización y consentimiento del Contrato de Compra Venta en
+        Abonos
+      </p>
+      <br />
+      <p class="input-text">
+        Con la suscripción del presente Contrato, Usted manifiesta y ACEPTA que:
+      </p>
+      <br />
+      <p class="input-text">
+        a) Le fue explicado y proporcionada toda la información relativa al
+        contenido de éste, incluyendo los términos y condiciones
+        correspondientes al Equipo Móvil que será adquirido, el monto
+        financiado, el plazo de vigencia del presente contrato así como el monto
+        que deberá de pagar semanalmente durante el período de vigencia del
+        contrato para evitar que el equipo móvil sea inhabilitado
+      </p>
+      <br />
+      <p class="input-text">
+        b) En cumplimiento a lo establecido con las leyes de la materia, se hace
+        constar que la información y/o documentación contenida en el presente
+        documento son confidenciales y/o privilegiadoss, y son para uso
+        exclusivo de EL VENDEDOR, el cual se compromete a guardar absoluta
+        discresión con la misma. Acepta sea utiliazada únicamente con fines
+        publicitarios y/o mercadotécnicos, así como, para recibir por cualquier
+        medio publicidad sobre bienes, productoso servicios ofrecidos por la
+        Empresa y/o terceros de conformidad con loestablecido en el Aviso de
+        Privacidad de la Empresa
+      </p>
+      <br />
+      <p class="input-text">
+        c) El presente contrato fue autorizado e inscrito por la Procuraduría
+        Federal del Consumidor (PROFECO), el XX/XX/2021, con número XXX-2021,
+        Disponible en el siguiente código
+      </p>
+      <br />
+      <p class="input-text">
+        Contrato celebrado en: Madero No Exteriror 128 No Interior 101 Colonia
+        Patria Nueva Santiago de Anaya Hidalgo c.p. 42630 el dia 25 del mes de
+        05 del 2021.
+      </p>
+      <p class="input-text">
+        Entre la empresa SOFOM ALAMO y el sr(a) Eduardo Benitez Gaspar
+      </p>
+    </div>
+    <br />
+    <div class="row">
+      <div class="item-medio container-firma">
+        <figure></figure>
+        <p>Firma de representante legal por parte del VENDEDOR</p>
+      </div>
+      <div class="item-medio container-firma">
+        <figure></figure>
+        <p>Eduardo Benitez Gaspar</p>
+      </div>
+    </div>
+  </body>
+</html>

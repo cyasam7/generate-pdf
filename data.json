@@ -1,0 +1,25 @@
+{
+  "personas": [
+    {
+      "nombre": "Alexander",
+      "apellido": "Serrano",
+      "edad": 15
+    },
+    {
+      "nombre": "Pedro",
+      "apellido": "Garcia",
+      "edad": 17
+    },
+    {
+      "nombre": "Miguel",
+      "apellido": "Medrano",
+      "edad": 28
+    }
+  ],
+  "nombre": "Jose luis",
+  "objeto": {
+    "edad": 15
+  },
+  "boolean": true,
+  "imagen": "https://res.cloudinary.com/dtvbkgf9w/image/upload/v1608679477/prueba/imagen_ijh98b.png"
+}
